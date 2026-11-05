@@ -1,0 +1,31 @@
+<svg width="900" height="240" viewBox="0 0 900 240" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>Lekòl Pam logo</title>
+  <desc>Horizontal logo for Lekòl Pam: an abstract open book merging into three connected network nodes, paired with the wordmark "Lekòl Pam".</desc>
+
+  <!-- Symbol: open book (education) rising into connected nodes (technology) -->
+  <g>
+    <!-- book base -->
+    <path d="M80,160 C80,120 110,90 140,100 C170,90 200,120 200,160 L200,172 C200,172 170,146 140,153 C110,146 80,172 80,172 Z"
+          fill="#1A365D"/>
+    <!-- spine highlight -->
+    <path d="M140,100 L140,153" stroke="#0F2A44" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+    <!-- connector stem from book into network -->
+    <line x1="140" y1="100" x2="140" y2="62" stroke="#0F9E75" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- network links -->
+    <line x1="140" y1="62" x2="112" y2="78" stroke="#0F9E75" stroke-width="3" stroke-linecap="round"/>
+    <line x1="140" y1="62" x2="168" y2="78" stroke="#0F9E75" stroke-width="3" stroke-linecap="round"/>
+    <line x1="112" y1="78" x2="168" y2="78" stroke="#0F9E75" stroke-width="2" stroke-linecap="round" opacity="0.55"/>
+
+    <!-- network nodes -->
+    <circle cx="140" cy="62" r="9" fill="#0F9E75"/>
+    <circle cx="112" cy="78" r="7" fill="#0F9E75"/>
+    <circle cx="168" cy="78" r="7" fill="#0F9E75"/>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="245" y="146" font-family="'Helvetica Neue', Arial, sans-serif" font-size="66" font-weight="700">
+    <tspan fill="#1A365D">Lekòl </tspan><tspan fill="#0F9E75">Pam</tspan>
+  </text>
+</svg>

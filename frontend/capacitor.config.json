@@ -1,0 +1,9 @@
+{
+  "appId": "online.lekolpam.app",
+  "appName": "Lekòl Pam",
+  "webDir": "dist",
+  "server": {
+    "url": "https://lekolpam.online",
+    "androidScheme": "https"
+  }
+}

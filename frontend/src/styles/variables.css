@@ -1,0 +1,25 @@
+/* Palette imposée : blanc, bleu, noir, gris — aucune autre teinte décorative */
+:root {
+  --blanc: #ffffff;
+  --bleu: #1d4ed8;
+  --bleu-fonce: #1e3a8a;
+  --bleu-clair: #eff4ff;      /* fond bleuté très léger */
+  --noir: #111827;
+  --gris: #6b7280;            /* texte secondaire */
+  --gris-clair: #f3f4f6;      /* fonds */
+  --gris-bordure: #e5e7eb;
+  --gris-champ: #f9fafb;
+
+  /* Rouge réservé strictement aux erreurs (toléré par la charte) */
+  --erreur: #b91c1c;
+  --erreur-fond: #fef2f2;
+
+  --rayon: 12px;
+  --rayon-sm: 8px;
+  --ombre: 0 1px 2px rgba(17, 24, 39, 0.04), 0 8px 24px rgba(17, 24, 39, 0.06);
+  --ombre-sm: 0 1px 2px rgba(17, 24, 39, 0.06);
+  --transition: 150ms ease;
+  --largeur-contenu: 1080px;
+
+  --police: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}

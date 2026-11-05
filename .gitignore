@@ -1,0 +1,34 @@
+# Dépendances
+**/node_modules/
+
+# Secrets / environnement
+**/.env
+**/.env.*
+!**/.env.example
+
+# Build frontend
+frontend/dist/
+
+# Fichiers téléversés (volume persistant en production)
+backend/uploads/
+
+# Logs
+*.log
+
+# OS / éditeurs
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Sauvegardes de la base (données personnelles — jamais dans Git)
+sauvegardes/
+*.sql.gz
+
+# Documents confidentiels (comptes, mots de passe, contrats) — jamais dans Git
+Lis_Kont_ak_Modpas.pdf
+*Modpas*
+Contrat_*.pdf
+
+# Dossier de référence externe (hors projet)
+haiti-payments-main/

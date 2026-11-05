@@ -1,0 +1,51 @@
+{
+  "name": "lekol-pam-backend",
+  "version": "1.0.0",
+  "description": "API Lekol Pam — plateforme de gestion scolaire",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --experimental-test-module-mocks --test \"test/*.test.js\"",
+    "init:db": "node scripts/initDbRailway.js",
+    "migrate:sync": "node scripts/migrerSync.js",
+    "seed:admin:railway": "node scripts/seedAdminRailway.js",
+    "seed:admins-modules:railway": "node scripts/seedAdminsModulesRailway.js",
+    "seed:economat:railway": "node scripts/seedEconomatRailway.js",
+    "seed": "node scripts/seed.js",
+    "seed:vlog": "node scripts/seedVlog.js",
+    "seed:profs": "node scripts/seedProfs.js",
+    "seed:apropos": "node scripts/seedApropos.js",
+    "seed:academie": "node scripts/seedAcademie.js",
+    "seed:examens": "node scripts/seedExamens.js",
+    "build": "npm --prefix ../frontend install && npm --prefix ../frontend run build"
+  },
+  "dependencies": {
+    "@simplewebauthn/server": "14.0.3",
+    "bcryptjs": "2.4.3",
+    "cookie-parser": "1.4.7",
+    "cors": "2.8.6",
+    "dotenv": "16.6.1",
+    "exceljs": "4.4.0",
+    "express": "4.22.2",
+    "express-mysql-session": "3.0.3",
+    "express-rate-limit": "7.5.1",
+    "express-session": "1.19.0",
+    "file-type": "22.1.1",
+    "google-auth-library": "11.1.0",
+    "helmet": "8.3.0",
+    "multer": "2.4.0",
+    "mysql2": "3.24.4",
+    "openai": "6.48.0",
+    "pdf-lib": "1.17.1"
+  },
+  "overrides": {
+    "mysql2": "$mysql2",
+    "qs": "6.16.0",
+    "uuid": "^11.1.1"
+  },
+  "allowScripts": {
+    "bcrypt@6.0.0": true
+  }
+}
